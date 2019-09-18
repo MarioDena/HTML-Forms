@@ -1,53 +1,61 @@
-.formHeader{
-    position: relative;
-    width: 400px;
-    max-width: 920px;
+.formHeader {
+  position: relative;
+  width: 400px;
+  max-width: 920px;
+  margin: 0 auto;
+
+  &__logo {
+    display: block;
     margin: 0 auto;
+    width: 130px;
+    text-align: center;
+  }
 
-    &__logo {
-        display: block;
-        margin: 0 auto;
-        width: 130px;
-        text-align: center;
-    }
-
-    &__links {
-        padding: 20px 45px;
-        display: flex;
-        flex-direction: row;
-    }
+  &__links {
+    padding: 20px 45px;
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .formLink {
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    color: rgb(94, 94, 94);
-    font-size: 20px;
-    padding: 5px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+  font-size: 19px;
+  padding: 5px;
 
-    &__icons {
-        padding-right: 5px;
-        height: 25px;
-    }
+  &__icons {
+    padding-right: 5px;
+    height: 25px;
+  }
 }
 
 .formBody {
-    width: 400px;
-    max-width: 920px;
-    margin: 0 auto;
-    outline: 1px solid red;
-    background-color: white;
+  width: 400px;
+  max-width: 920px;
+  margin: 0 auto;
+  outline: 1px solid lightgrey;
+  background-color: white;
+  text-align: center;
 
-    &__title {
+  &__title {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    font-size: 24px;
+  }
 
-    }
+  &__description {
+    font-size: 14px;
+    padding-bottom: 25px;
+  }
 
-    &__description {
+  &__footer {
+  }
+}
 
-    }
-
-    &__footer {
-
-    }
+.--link {
+  font-size: 12px;
+  color: #0077c5;
 }

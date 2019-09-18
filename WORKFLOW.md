@@ -1,6 +1,5 @@
 The main components of our site are:
 
-
 [x] -Navbar
 [] -Body
 [] -Footbar
@@ -12,11 +11,11 @@ The main components of our site are:
 
 -Body
 
-[] --Titlelogo
-[] --3 img links
+[x] --Titlelogo
+[x] --3 img links
 [] ---form body
-[] ----Title
-[] ----Description
+[x] ----Title
+[x] ----Description
 [] ----Form Element
 [] -----3 labels
 [] -----3 inputs
