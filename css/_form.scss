@@ -52,10 +52,26 @@
   }
 
   &__footer {
+    width: 400px;
+    height: 60px;
+    background-color: #eceef1;
   }
+
+  &__fields {
+    display: block;
+    text-align: left;
+  }
+}
+
+.email {
+  display: block;
 }
 
 .--link {
   font-size: 12px;
   color: #0077c5;
+}
+
+.input {
+  padding-left: 20px;
 }
