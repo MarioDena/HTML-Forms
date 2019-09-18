@@ -175,8 +175,64 @@ table {
   padding-right: 5px;
 }
 
+.formHeader {
+  position: relative;
+  width: 400px;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.formHeader__logo {
+  display: block;
+  margin: 0 auto;
+  width: 130px;
+  text-align: center;
+}
+
+.formHeader__links {
+  padding: 20px 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.formLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-decoration: none;
+  color: #5e5e5e;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.formLink__icons {
+  padding-right: 5px;
+  height: 25px;
+}
+
+.formBody {
+  width: 400px;
+  max-width: 920px;
+  margin: 0 auto;
+  outline: 1px solid red;
+  background-color: white;
+}
+
 body {
   position: relative;
   background-color: #eceef1;
+}
+
+.mainContainer {
+  margin: 0 auto;
 }
 /*# sourceMappingURL=main.css.map */

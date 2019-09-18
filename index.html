@@ -1,27 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <nav>
-      <div class="navbarContainer">
-        <div class="navbarContainer__message">
-          Already have an Intuit account? <br />
-          <a class="navbarContainer__link">I forgot my User ID or Password</a>
-        </div>
 
-        <button class="navBarbutton">
-          <img src="./image/whitelock.png" class="navBarbutton__lock" >
-          Sign In
-        </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <nav>
+    <div class="navbarContainer">
+      <div class="navbarContainer__message">
+        Already have an Intuit account? <br />
+        <a class="navbarContainer__link">I forgot my User ID or Password</a>
       </div>
-    </nav>
-    <main></main>
-    <footer></footer>
-  </body>
+
+      <button class="navBarbutton">
+        <img src="./image/whitelock.png" class="navBarbutton__lock">
+        Sign In
+      </button>
+    </div>
+  </nav>
+  <main>
+    <div class="mainContainer">
+      <div class="formHeader">
+        <img src="./image/intuit.PNG" alt="Main Logo" class="formHeader__logo">
+        <div class="formHeader__links">
+          <a href="#" class="formLink">
+            <img src="./image/mint.svg" alt="" class="formLink__icons">
+            mint
+          </a>
+          <a href="#" class="formLink">
+            <img src="./image/quickbooks.svg" alt="" class="formLink__icons">
+            quickbooks
+          </a>
+          <a href="#" class="formLink">
+            <img src="./image/turbotax.svg" alt="" class="formLink__icons">
+            turbotax
+          </a>
+        </div>
+      </div>
+      <div class="formBody">
+        <div class="formBody__title">
+            Create an Intuit account
+        </div>
+        <div class="formBody__description">
+            One account for everything Intuit, including Mint. <br> 
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              Learn more
+            </a>
+        </div>
+        <form class="formBody__fields">
+          <div class="email">
+            <label>
+              Email
+            </label>
+            <input type="email" name="email" id="email" >
+          </div>
+          <div class="phone">
+            <label for="">
+
+            </label>
+            <div>
+              <input type="text">
+              <img src="" alt="" srcset="">
+            </div>
+            <p>
+
+            </p>
+          </div>
+          <div class="password">
+            <label for="">
+
+            </label>
+            <div>
+              <input type="password" name="password" id="password">
+              <img src="" alt="" srcset="">
+            </div>
+          </div>
+          <button type="submit">
+            <img src="" alt="" srcset="">
+            Create Action
+          </button>
+        </form>
+        <div class="formBody__footer"></div>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+</body>
+
 </html>
