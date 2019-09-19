@@ -13,15 +13,15 @@ The main components of our site are:
 
 [x] --Titlelogo
 [x] --3 img links
-[] ---form body
+[x] ---form body
 [x] ----Title
 [x] ----Description
-[] ----Form Element
-[] -----3 labels
-[] -----3 inputs
-[] ----button
-[] ----message
-[] ----footer
+[x] ----Form Element
+[x] -----3 labels
+[x] -----3 inputs
+[x] ----button
+[x] ----message
+[x] ----footer
 
 -footbar
 [] --3 links

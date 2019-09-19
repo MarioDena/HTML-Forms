@@ -68,36 +68,66 @@
           </div>
           <form class="formBody__fields">
             <div class="email">
-              <label for="email">
+              <label for="email" class="formLabel">
                 Email Adress
               </label>
-              <div class="input"><input type="email" name="email" id="email" /></div>
+              <div class="input">
+                <input
+                  class="input__inputBar"
+                  type="email"
+                  name="email"
+                  id="email"
+                />
+              </div>
             </div>
             <div class="phone">
-              <label for="phone">
+              <label for="phone" class="formLabel">
                 Phone (Recommended)
               </label>
               <div class="input">
-                <input type="text" />
+                <input class="input__inputBar" type="text" />
                 <img src="" alt="" srcset="" />
+                <p class="formMiniMessage">
+                  Standard call, messaging or data rates may apply.
+                </p>
               </div>
-              <p>Standard call, messaging or data rates may apply.</p>
             </div>
             <div class="password">
-              <label for="password">
+              <label for="password" class="formLabel">
                 Password
               </label>
               <div class="input">
-                <input type="password" name="password" id="password" />
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  class="input__inputBar"
+                />
                 <img src="" alt="" srcset="" />
               </div>
             </div>
-            <button type="submit">
-              <img src="" alt="" srcset="" />
-              Create Action
+            <button class="navBarbutton --formButtom" type="submit">
+              <img
+                src="./image/whitelock.png"
+                alt=""
+                srcset=""
+                class="navBarbutton__lock --formImg"
+              />
+              Create Account
             </button>
           </form>
-          <div class="formBody__footer"></div>
+          <p class="formInfo">
+            By clicking Create account, you agree to our
+            <a href="" class="--link">Terms</a>and have read and acknowledge our
+            <a href="" class="--link">Privacy Statement.</a>
+          </p>
+          <div class="formBody__footer">
+            <p class="--formFootText">
+              Invisible reCAPTCHA by Google
+              <a href="" class="--link">Privacy Policy</a> and
+              <a href="" class="--link">Terms of Use.</a>
+            </p>
+          </div>
         </div>
       </div>
     </main>
