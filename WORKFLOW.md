@@ -1,7 +1,7 @@
 The main components of our site are:
 
 [x] -Navbar
-[] -Body
+[x] -Body
 [] -Footbar
 
 -Navbar
