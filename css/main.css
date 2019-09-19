@@ -83,7 +83,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -104,6 +103,10 @@ section {
 
 body {
   line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  background-color: #eceef1;
+  color: #5e5e5e;
 }
 
 ol,
@@ -116,10 +119,10 @@ q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: "";
   content: none;
 }
@@ -328,13 +331,6 @@ table {
   color: #4d5257;
   padding: 5px;
   padding-bottom: 20px;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  position: relative;
-  background-color: #eceef1;
-  color: #5e5e5e;
 }
 
 .mainContainer {
