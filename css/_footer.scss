@@ -1,0 +1,21 @@
+.footerLinks {
+  text-align: center;
+  padding-top: 25px;
+
+  &__grey {
+    color: rgb(77, 82, 87);
+    text-decoration: none;
+    font-size: 13px;
+    padding: 2px;
+    margin: 15px 2px;
+  }
+}
+
+.footerNotice {
+  text-align: center;
+  font-size: 13px;
+  line-height: 18px;
+  color: rgb(77, 82, 87);
+  padding: 5px;
+  padding-bottom: 20px;
+}

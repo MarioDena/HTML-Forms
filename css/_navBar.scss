@@ -1,0 +1,36 @@
+.navbarContainer {
+  padding: 10px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 12px;
+  color: rgb(94, 94, 94);
+
+  &__message {
+    padding: 5px;
+    line-height: 18px;
+  }
+
+  &__link {
+    color: #0077c5;
+    text-decoration: none;
+  }
+}
+
+.navBarbutton {
+  color: white;
+  width: 100px;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid black;
+  background-color: #0077c5;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+
+  &__lock {
+    height: 13px;
+    padding-right: 5px;
+  }
+}

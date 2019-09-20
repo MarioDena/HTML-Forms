@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Intuit Accounts - Sign Up</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="navbarContainer">
+        <div class="navbarContainer__message">
+          Already have an Intuit account? <br />
+          <a href="#" class="navbarContainer__link"
+            >I forgot my User ID or Password</a
+          >
+        </div>
+
+        <button class="navBarbutton">
+          <img
+            src="./image/whitelock.png"
+            class="navBarbutton__lock"
+            alt="lock"
+          />
+          Sign In
+        </button>
+      </div>
+    </nav>
+    <main>
+      <div class="mainContainer">
+        <div class="formHeader">
+          <a href="#">
+            <img
+              src="./image/intuit.PNG"
+              alt="Main Logo"
+              class="formHeader__logo"
+            />
+          </a>
+          <div class="formHeader__links">
+            <a href="#" class="formLink">
+              <img src="./image/mint.svg" alt="" class="formLink__icons" />
+              mint
+            </a>
+            <a href="#" class="formLink">
+              <img
+                src="./image/quickbooks.svg"
+                alt=""
+                class="formLink__icons"
+              />
+              quickbooks
+            </a>
+            <a href="#" class="formLink">
+              <img src="./image/turbotax.svg" alt="" class="formLink__icons" />
+              turbotax
+            </a>
+          </div>
+        </div>
+        <div class="formBody">
+          <div class="formBody__title">
+            Create an Intuit account
+          </div>
+          <div class="formBody__description">
+            One account for everything Intuit, including Mint. <br />
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="--link"
+            >
+              Learn more
+            </a>
+          </div>
+          <form class="formBody__fields">
+            <div class="email">
+              <label for="email" class="formLabel">
+                Email Adress
+              </label>
+              <div class="input">
+                <input
+                  class="input__inputBar"
+                  type="email"
+                  name="email"
+                  id="email"
+                />
+              </div>
+            </div>
+            <div class="phone">
+              <label for="phone" class="formLabel">
+                Phone (Recommended)
+              </label>
+              <div class="input">
+                <input class="input__inputBar" type="text" id="phone" />
+                <!-- <img src="" alt="" srcset="" /> -->
+                <p class="formMiniMessage">
+                  Standard call, messaging or data rates may apply.
+                </p>
+              </div>
+            </div>
+            <div class="password">
+              <label for="password" class="formLabel">
+                Password
+              </label>
+              <div class="input">
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  class="input__inputBar"
+                />
+                <!-- <img src="" alt="" srcset="" /> -->
+              </div>
+            </div>
+            <button class="navBarbutton --formButtom" type="submit">
+              <img
+                src="./image/whitelock.png"
+                alt="lock"
+                class="navBarbutton__lock --formImg"
+              />
+              Create Account
+            </button>
+          </form>
+          <p class="formInfo">
+            By clicking Create account, you agree to our <br />
+            <a href="" class="--link">Terms</a> and have read and acknowledge
+            our
+            <a href="" class="--link">Privacy Statement.</a>
+          </p>
+          <div class="formBody__footer">
+            <p class="--formFootText">
+              Invisible reCAPTCHA by Google
+              <a href="" class="--link">Privacy Policy</a> and
+              <a href="" class="--link">Terms of Use.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footerLinks">
+        <a href="#" class="footerLinks__grey">Legal</a>
+        <a href="#" class="footerLinks__grey">Privacy</a>
+        <a href="#" class="footerLinks__grey">Security</a>
+      </div>
+      <div class="footerNotice">
+        © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+        <br />
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.
+      </div>
+    </footer>
+  </body>
+</html>

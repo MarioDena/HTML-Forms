@@ -1,0 +1,125 @@
+.formHeader {
+  position: relative;
+  width: 400px;
+  max-width: 920px;
+  margin: 0 auto;
+
+  &__logo {
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+    text-align: center;
+  }
+
+  &__links {
+    padding: 20px 45px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.formLink {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+  font-size: 19px;
+  padding: 5px;
+
+  &__icons {
+    padding-right: 5px;
+    height: 25px;
+  }
+}
+
+.formBody {
+  width: 400px;
+  max-width: 920px;
+  margin: 0 auto;
+  outline: 1px solid lightgrey;
+  background-color: white;
+  text-align: center;
+
+  &__title {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    font-size: 24px;
+  }
+
+  &__description {
+    font-size: 14px;
+    padding-bottom: 25px;
+  }
+
+  &__footer {
+    width: 400px;
+    height: 60px;
+    background-color: #eceef1;
+  }
+
+  &__fields {
+    display: block;
+    text-align: left;
+  }
+}
+
+.email {
+  display: block;
+}
+
+.--link {
+  font-size: 12px;
+  color: #0077c5;
+}
+
+.input {
+  padding-left: 20px;
+  padding-bottom: 20px;
+
+  &__inputBar {
+    width: 357px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+.formLabel {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.formMiniMessage {
+  font-size: 10px;
+  padding-bottom: 5px;
+}
+
+.--formButtom {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 360px;
+  height: 50px;
+  border-color: white;
+}
+
+.formInfo {
+  font-size: 13px;
+  font-style: italic;
+  padding: 50px;
+  line-height: 22px;
+  color: slategray;
+}
+
+.--formImg {
+  width: 16px;
+  height: 18px;
+}
+
+.--formFootText {
+  font-size: 11px;
+  padding-top: 25px;
+  color: slategray;
+}

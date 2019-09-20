@@ -1,0 +1,338 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  background-color: #eceef1;
+  color: #5e5e5e;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.navbarContainer {
+  padding: 10px;
+  margin-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  color: #5e5e5e;
+}
+
+.navbarContainer__message {
+  padding: 5px;
+  line-height: 18px;
+}
+
+.navbarContainer__link {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+.navBarbutton {
+  color: white;
+  width: 100px;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid black;
+  background-color: #0077c5;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.navBarbutton__lock {
+  height: 13px;
+  padding-right: 5px;
+}
+
+.formHeader {
+  position: relative;
+  width: 400px;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.formHeader__logo {
+  display: block;
+  margin: 0 auto;
+  width: 130px;
+  text-align: center;
+}
+
+.formHeader__links {
+  padding: 20px 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.formLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  text-decoration: none;
+  color: #5e5e5e;
+  font-size: 19px;
+  padding: 5px;
+}
+
+.formLink__icons {
+  padding-right: 5px;
+  height: 25px;
+}
+
+.formBody {
+  width: 400px;
+  max-width: 920px;
+  margin: 0 auto;
+  outline: 1px solid lightgrey;
+  background-color: white;
+  text-align: center;
+}
+
+.formBody__title {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  font-size: 24px;
+}
+
+.formBody__description {
+  font-size: 14px;
+  padding-bottom: 25px;
+}
+
+.formBody__footer {
+  width: 400px;
+  height: 60px;
+  background-color: #eceef1;
+}
+
+.formBody__fields {
+  display: block;
+  text-align: left;
+}
+
+.email {
+  display: block;
+}
+
+.--link {
+  font-size: 12px;
+  color: #0077c5;
+}
+
+.input {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.input__inputBar {
+  width: 357px;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid lightgrey;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.formLabel {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.formMiniMessage {
+  font-size: 10px;
+  padding-bottom: 5px;
+}
+
+.--formButtom {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 360px;
+  height: 50px;
+  border-color: white;
+}
+
+.formInfo {
+  font-size: 13px;
+  font-style: italic;
+  padding: 50px;
+  line-height: 22px;
+  color: slategray;
+}
+
+.--formImg {
+  width: 16px;
+  height: 18px;
+}
+
+.--formFootText {
+  font-size: 11px;
+  padding-top: 25px;
+  color: slategray;
+}
+
+.footerLinks {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.footerLinks__grey {
+  color: #4d5257;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 2px;
+  margin: 15px 2px;
+}
+
+.footerNotice {
+  text-align: center;
+  font-size: 13px;
+  line-height: 18px;
+  color: #4d5257;
+  padding: 5px;
+  padding-bottom: 20px;
+}
+
+.mainContainer {
+  margin: 0 auto;
+}
