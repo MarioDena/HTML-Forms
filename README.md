@@ -1,6 +1,6 @@
 
-[![Contributors][contributors-shield]
-[![Forks][forks-shield]
+![Contributors][contributors-shield]
+![Forks][forks-shield]
 
 # HTML-Forms
 <br />
